@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal & Sliding Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Sliding Menu-->
+    <label class="hamburger-menu">
+        <input type="checkbox">
+    </label>
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#">Menu Item 1</a></li>
+                <li><a href="#">Menu Item 2</a></li>
+                <li><a href="#">Menu Item 3</a></li>
+                <li><a href="#">Menu Item 4</a></li>
+                <li><a href="#">Menu Item 5</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!--Modal-->
+    <button id="openModalButton">Open Modal</button>
+
+    <div id="modalOverlay">
+        <div id="modalBox">
+            <div id="closeModal">&times;</div>
+            <p>Bacon ipsum dolor amet ven   on shank jowl, prosciutto pastrami shoulder short ribs ham brisket meatball
+                turducken. Hamburger ham hock meatloaf porchetta pork loin, pork chop alcatra short ribs boudin
+                andouille fatback biltong pig. Bresaola prosciutto burgdoggen buffalo beef.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
